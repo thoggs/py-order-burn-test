@@ -12,7 +12,7 @@ Este projeto executa um teste de carga enviando múltiplas requisições para a 
 1. Clone este repositório:
 
    ```sh
-   git clone https://github.com/seu-usuario/order-load-test.git
+   git clone https://github.com/thoggs/py-order-burn-test.git
    ```
 
 2. Acesse o diretório do projeto:
