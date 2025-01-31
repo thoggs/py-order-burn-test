@@ -8,6 +8,7 @@ HEADERS = {"Content-Type": "application/json"}
 NUM_REQUESTS = 200000
 CUSTOMER_CODE_BASE = "COPLDSAKDFFDSNBBO"
 REQUESTS_PER_SECOND = 3
+ITEMS_PER_ORDER = 200
 
 
 def generate_payload(customer_index):
@@ -22,7 +23,7 @@ def generate_payload(customer_index):
                 "quantity": 1,
                 "unitPrice": round(10 + (order % 100) * 0.5, 2)
             }
-            for order in range(5000)
+            for order in range(ITEMS_PER_ORDER)
         ]
     }
 
