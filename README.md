@@ -21,10 +21,20 @@ Este projeto executa um teste de carga enviando múltiplas requisições para a 
    cd py-order-burn-test
    ```
 
-3. Crie o ambiente virtual:
+3. Criar o ambiente virtual:
 
+   #### **Linux/macOS:**
+   ```sh
+   python -m venv venv
+   ```
+   Ou, se `python` não estiver disponível, use:
    ```sh
    python3 -m venv venv
+   ```
+
+   #### **Windows:**
+   ```sh
+   python -m venv venv
    ```
 
 4. Ative o ambiente virtual:
