@@ -18,11 +18,21 @@ Este projeto executa um teste de carga enviando múltiplas requisições para a 
 2. Acesse o diretório do projeto:
 
    ```sh
-   cd order-load-test
+   cd py-order-burn-test
    ```
 
-3. Crie o ambiente virtual:
+3. Criar o ambiente virtual:
 
+   #### **Linux/macOS:**
+   ```sh
+   python -m venv venv
+   ```
+   Ou, se `python` não estiver disponível, use:
+   ```sh
+   python3 -m venv venv
+   ```
+
+   #### **Windows:**
    ```sh
    python -m venv venv
    ```
